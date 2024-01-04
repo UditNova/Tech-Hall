@@ -1,4 +1,3 @@
-package lib;
 
 public class Variable {
 

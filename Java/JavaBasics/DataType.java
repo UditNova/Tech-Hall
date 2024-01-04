@@ -1,4 +1,4 @@
-package lib;
+
 
 public class DataType {
   // Java Program to Demonstrate Char Primitive Data Type
