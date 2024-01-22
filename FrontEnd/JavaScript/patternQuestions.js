@@ -154,3 +154,50 @@ function hollowTrianglePattern(num) {
 }
 
 hollowTrianglePattern(6);
+
+// 7. Javascript Pyramid Pattern
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// code:-
+function pyramidPattern(num) {
+  for (let i = 1; i <= num; i++) {
+    var str = "";
+    for (let j = 1; j <= num - i; j++) {
+      str += " " 
+    }
+    for (let k = 1; k <=2 * i - 1; k++) {
+      str += "*";
+    }
+    console.log(str);
+  }
+}
+
+pyramidPattern(5);
+
+// 8. Reversed Pyramid Star Pattern
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+
+//code:-
+function reversedPyramidPattern(num) {
+  for (let i = 0; i < num; i++) {
+    var str = "";
+    for (let j = 0; j < i; j++) {
+      str +=" "
+    }
+    for (let k = 0; k < 2 * (num-i)- 1 ; k++) {
+      str += "*";
+    }
+    console.log(str);
+  }
+}
+
+reversedPyramidPattern(5);
+
